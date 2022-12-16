@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ body{
+  font-family: "Lato",sans-serif;
+  background-color: #ff6600;
+  background-image: url("meulabs_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+              }
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ff6600;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+main .sidebar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.material-icons,
+.icon-text {
+  vertical-align: middle;
+}
+
+.material-icons {
+
+  margin-right: 30px
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  margin-left: 250px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+
+</style>
+</head>
+<body>
+  <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+    <div class="device-la">
+       <img src="img/test.jpg"/>
+    </div>
+  </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="orders-create-KE.html">Create</a>
+        <br>
+        <a href="orders-edit-KE.html">Edit</a>
+        
+        </a>
+        <br>
+        <a href="#">Delete</a>
+        <br>
+        <a href="orders-update-KE.html">Update</a>
+      </div>
+      
+      <div id="main">
+        <h2>Knowledge Explorers.</h2>
+        <p>The sidebar is in fixed position and does .</p>
+      </div>
+
+    </body>
+</html> 
